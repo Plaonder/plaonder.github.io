@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plaonder time</title>
 </head>
 <style>
     body { margin: 0; }
+    
     ul.topnav {
         list-style-type: none;
         margin: 0;
@@ -20,6 +20,7 @@
         position: sticky;
         top: 0;
     }
+    
     ul.topnav li {float: left;}
     
     ul.topnav li a {
@@ -37,7 +38,7 @@
     ul.topnav li.right {float: right;}
     
     @media screen and (max-width: 600px) {
-        ul.topnav li.right,
+        ul.topnav li.right, 
         ul.topnav li {float: none;}
     }
 </style>
@@ -45,10 +46,7 @@
     <ul class="topnav">
         <li><a class="active" href="#home">Home</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="javascript:void(0);" class="icon" onclick="topbarDropdown()">
-            <li><i class="fa fa-bars"></li>
-        </a></li>
+        <li class="right"><a href="#about">About</a></li>
     </ul>
     
     <div id="home" style="padding:0 16px;">
@@ -61,15 +59,5 @@
             Your browser does not support videos.
         </video>
     </div>
-    <script>
-        function topbarDropdown() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
 </body>
 </html>
