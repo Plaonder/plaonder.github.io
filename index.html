@@ -8,56 +8,102 @@
     <title>Plaonder time</title>
 </head>
 <style>
-    body { margin: 0; }
-    
-    ul.topnav {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #6eadff;
-        position: -webkit-sticky; /* Safari */
+    .navbar {
+        width: 100%;
+        background: #6eadff;
+
         position: sticky;
+        position: -webkit-sticky; /* for safari */
         top: 0;
     }
-    
-    ul.topnav li {float: left;}
-    
-    ul.topnav li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
+
+    nav {
+        max-width: 1720px;
+        margin: 0 auto;
+
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
     }
 
-    ul.topnav li a:hover:not(.active) {background-color: rgb(255, 255, 255);}
+    nav a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-    ul.topnav li a.active {background-color: #4CAF50;}
+        transition: .3s all ease-in-out;
+    }
+
+    nav a:hover {
+        opacity: .7;
+    }
+
+    .navingtime {
+        grid-column: 1;
+        align-self: center;
+    }
+
+    .navingtime a {
+        padding: 10px 0;
+        margin-left: 15px;
+        font-size: 15px;
+        font-weight: 300;
+        letter-spacing: 0.5px;
+    }
     
-    ul.topnav li.right {float: right;}
-    
-    @media screen and (max-width: 600px) {
-        ul.topnav li.right, 
-        ul.topnav li {float: none;}
+    .logo {
+        font-size: 40px;
+        padding: 1rem;
+        grid-column: 2;
+    }
+
+    #nav-toggle, .burger {
+        display: none;
+    }
+
+    @media only screen and (max-width: 1025px) {
+        .burger {
+            display: inline-block;
+            align-self: center;
+        }
+
+        .navingtime {
+            display: none;
+        }
+
+        #nav-toggle:checked ~ .navingtime {
+            display: grid;
+            grid-row: 2;
+        }
     }
 </style>
 <body>
-    <ul class="topnav">
-        <li><a class="active" href="#home">Home</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li class="right"><a href="#about">About</a></li>
-    </ul>
-    
-    <div id="home" style="padding:0 16px;">
+    <div class="navbar">
+        <nav>
+            <input type="checkbox" id="nav-toggle">
+            <label for="nav-toggle" class="burger">
+                <img src="images/burger.png" alt="" width="40">
+            </label>
+            <div class="navingtime">
+                <a href="#">Home</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#about">About</a>
+            </div>
+            <a href="#" class="logo">Plaonder</a>
+        </nav>
+    </div>
+
+    <div>
         <p>plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time plaonder time </p>
     </div>
     
-    <div id="portfolio" style="padding:0 16px;">
-        <video width="640" height="480" controls>
+
+    <ul id="portfolio" style="padding:0 16px;">
+        <li><video width="640" height="480" controls>
             <source src="videos/Desk_Blender.mp4" type="video/mp4">
             Your browser does not support videos.
-        </video>
+        </video></li>
+        <li><img src="images/NET_0004_S2.png" alt="Source 2" width="640" height="480"></li>
     </div>
 </body>
 </html>
