@@ -4,79 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Plaonder time</title>
 </head>
-<style>
-    .navbar {
-        width: 100%;
-        background: #6eadff;
-
-        position: sticky;
-        position: -webkit-sticky; /* for safari */
-        top: 0;
-    }
-
-    nav {
-        max-width: 1720px;
-        margin: 0 auto;
-
-        display: grid;
-        grid-template-columns: 1fr auto 1fr;
-    }
-
-    nav a {
-        color: white;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-        transition: .3s all ease-in-out;
-    }
-
-    nav a:hover {
-        opacity: .7;
-    }
-
-    .navingtime {
-        grid-column: 1;
-        align-self: center;
-    }
-
-    .navingtime a {
-        padding: 10px 0;
-        margin-left: 15px;
-        font-size: 15px;
-        font-weight: 300;
-        letter-spacing: 0.5px;
-    }
-    
-    .logo {
-        font-size: 40px;
-        padding: 1rem;
-        grid-column: 2;
-    }
-
-    #nav-toggle, .burger {
-        display: none;
-    }
-
-    @media only screen and (max-width: 1025px) {
-        .burger {
-            display: inline-block;
-            align-self: center;
-        }
-
-        .navingtime {
-            display: none;
-        }
-
-        #nav-toggle:checked ~ .navingtime {
-            display: grid;
-            grid-row: 2;
-        }
-    }
-</style>
 <body>
     <div class="navbar">
         <nav>
@@ -98,7 +28,7 @@
     </div>
     
 
-    <ul id="portfolio" style="padding:0 16px;">
+    <ul id="portfolio">
         <li><video width="640" height="480" controls>
             <source src="videos/Desk_Blender.mp4" type="video/mp4">
             Your browser does not support videos.
