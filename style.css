@@ -176,3 +176,27 @@ nav a:hover {
     border-width: 5px;
     border-style: solid;
 }
+
+@media screen and (max-width: 1200px) {
+    a .abouttext {
+        color: white;
+        margin-left: 30px;
+        margin-top: 1px;
+        margin-right: 30px;
+        font-size: 10px;
+        padding-right: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    a .abouttext {
+        color: white;
+        margin-left: 30px;
+        margin-top: 1px;
+        margin-right: 30px;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-right: 100px;
+    }
+}
