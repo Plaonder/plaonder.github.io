@@ -170,4 +170,8 @@ nav a:hover {
     width: 100%;
     height: auto;
     margin: 0 auto;
+    border-radius: 40%;
+    border-color: rgb(129, 159, 255);
+    border-width: 5px;
+    border-style: solid;
 }
