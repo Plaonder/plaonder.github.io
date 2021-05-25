@@ -3,7 +3,8 @@ html {
 }
 
 body {
-    margin: 0;
+    width: 95%;
+    margin: auto;
     background-color: #6251ff;
 }
 
@@ -40,8 +41,8 @@ h1 {
 
 .navbar {
     width: 100%;
+    margin: auto;
     background: #6eadff;
-
     position: sticky;
     position: -webkit-sticky; /* for safari */
     top: 0;
