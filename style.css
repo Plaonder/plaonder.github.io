@@ -3,7 +3,6 @@ html {
 }
 
 body {
-    width: 95%;
     margin: auto;
     background: #202638;
 }
@@ -34,7 +33,6 @@ h1 {
     background: #283544;
     position: sticky;
     position: -webkit-sticky; /* for safari */
-    border-radius: 5px;
     top: 0;
 }
 
