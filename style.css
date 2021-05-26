@@ -98,6 +98,7 @@ nav a:hover {
 }
 
 .about {
+    width: 90%;
     display: grid;
     grid-template-columns: 250px auto;
     background: #22202e;
@@ -140,6 +141,7 @@ nav a:hover {
 
 .portcard {
     display: grid;
+    width: 90%;
     grid-template-rows: auto auto;
     margin: auto;
     background: #22202e;
