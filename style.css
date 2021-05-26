@@ -165,6 +165,15 @@ nav a:hover {
     height: auto;
 }
 
+.portimage video {
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 25px;
+    width: 95%;
+    height: auto;
+}
+
+
 .portgallery {
     display: grid;
     grid-template-rows: auto auto;
