@@ -5,7 +5,7 @@ html {
 body {
     width: 95%;
     margin: auto;
-    background-image: linear-gradient(to bottom right, #3150ff, #786eff);
+    background: linear-gradient(to bottom right, #6b80da, #197dff);
 }
 
 p {
@@ -31,7 +31,7 @@ h1 {
 .navbar {
     width: 100%;
     margin: auto;
-    background-image: linear-gradient(to bottom right, #398fff, #377bd4);
+    background-image: linear-gradient(to bottom right, #648de6, #1475ad);
     position: sticky;
     position: -webkit-sticky; /* for safari */
     border-radius: 5px;
@@ -102,7 +102,7 @@ nav a:hover {
 .about {
     display: grid;
     grid-template-columns: 250px auto;
-    background-image: linear-gradient(to bottom right, #398fff, #377bd4);
+    background-image: linear-gradient(to bottom right, #2f8edb, #0b4bd4);
     border-radius: 5px;
     margin-left: 10px;
     margin: auto;
@@ -147,9 +147,9 @@ nav a:hover {
     display: grid;
     grid-template-rows: auto auto;
     margin: auto;
-    background-image: linear-gradient(to bottom right, #398fff, #377bd4);
+    background-image: linear-gradient(to bottom right, #2f8edb, #0b4bd4);
     border-radius: 5px;
-    max-width: 1200px;
+    max-width: 1000px;
 }
 
 .portimage {
