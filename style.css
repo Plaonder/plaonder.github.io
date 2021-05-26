@@ -5,7 +5,7 @@ html {
 body {
     width: 95%;
     margin: auto;
-    background: linear-gradient(to bottom right, #3653d4, #13478b);
+    background: #202638;
 }
 
 p {
@@ -31,7 +31,7 @@ h1 {
 .navbar {
     width: 100%;
     margin: auto;
-    background-image: linear-gradient(to bottom right, #648de6, #1475ad);
+    background: #283544;
     position: sticky;
     position: -webkit-sticky; /* for safari */
     border-radius: 5px;
@@ -102,7 +102,7 @@ nav a:hover {
 .about {
     display: grid;
     grid-template-columns: 250px auto;
-    background-image: linear-gradient(to bottom right, #2f8edb, #0b4bd4);
+    background: #22202e;
     border-radius: 5px;
     margin-left: 10px;
     margin: auto;
@@ -132,9 +132,6 @@ nav a:hover {
     height: auto;
     margin: 5px;
     border-radius: 100%;
-    border-color: rgb(129, 159, 255);
-    border-width: 5px;
-    border-style: solid;
     margin-right: 15px;
 }
 
@@ -147,7 +144,7 @@ nav a:hover {
     display: grid;
     grid-template-rows: auto auto;
     margin: auto;
-    background-image: linear-gradient(to bottom right, #2f8edb, #0b4bd4);
+    background: #22202e;
     border-radius: 5px;
     max-width: 1000px;
 }
