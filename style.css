@@ -157,7 +157,7 @@ nav a:hover {
     max-width: 1000px;
 }
 
-.portcardhoriz {
+.portcard-horiz {
     display: grid;
     width: 90%;
     grid-template-columns: auto auto;
