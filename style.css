@@ -153,8 +153,25 @@ nav a:hover {
     grid-template-rows: auto auto;
     margin: auto;
     background: #22202e;
+    border-radius: 10px;
+    max-width: 1000px;
+}
+
+.portcardhoriz {
+    display: grid;
+    width: 90%;
+    grid-template-columns: auto auto;
+    margin: auto;
+    background: #22202e;
     border-radius: 5px;
     max-width: 1000px;
+}
+
+.portcardhoriz .portimage video {
+    border-radius: 10px;
+    margin: 25px;
+    width: 95%;
+    height: auto;
 }
 
 .portimage {
@@ -194,6 +211,15 @@ nav a:hover {
 }
 
 .portgallery img {
+    margin: auto;
+    border-radius: 5px;
+    border-radius: 10px;
+    margin-top: 25px;
+    width: 90%;
+    height: auto;
+}
+
+.portgallery video {
     margin: auto;
     border-radius: 5px;
     border-radius: 10px;
