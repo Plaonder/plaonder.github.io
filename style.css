@@ -162,6 +162,7 @@ nav a:hover {
     width: 90%;
     grid-template-columns: auto auto;
     margin: auto;
+    padding: 10px;
     background: #22202e;
     border-radius: 5px;
     max-width: 1000px;
@@ -169,7 +170,6 @@ nav a:hover {
 
 .portcardhoriz .portimage video {
     border-radius: 10px;
-    margin: 25px;
     width: 95%;
     height: auto;
 }
